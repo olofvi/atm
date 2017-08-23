@@ -1,4 +1,5 @@
 require './lib/account.rb'
+require '.lib/atm.rb'
 
 class Person
   attr_accessor :name, :cash, :account
@@ -12,6 +13,8 @@ class Person
       @account = Account.new(owner: self)
     end
 
+    def deposit
+      @balance = []
 
   private
   def set_name(obj)

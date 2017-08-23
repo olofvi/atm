@@ -12,11 +12,10 @@ describe Person do
   it 'is expected to have a :cash attribute with value of 0 on initialize' do
     expect(subject.cash).to eq 0
   end
+  it 'is expected to have a :account attribute' do
+    expect(subject.account).to be nil
+  end
 
-# it 'is expected to have a :account attribute' do
-#   expect(subject.account).to be nil
-# end
-#
 # describe 'can create an Account' do
 #   # As a Person,
 #   # in order to be able to use banking services to manage my funds,

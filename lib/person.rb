@@ -4,6 +4,7 @@ class Person
     def initialize(attrs = {})
       set_name(attrs[:name])
       @cash = 0
+      @account = nil
     end
 
   private

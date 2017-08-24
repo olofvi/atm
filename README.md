@@ -7,7 +7,7 @@ to load the program put in IRB
 *load 'lib/atm.rb'
 *load 'lib/person.rb'
 *load 'lib/account.rb'
-
+```
 
 You need to create a person class to use the ATM, you'll also need an account and some cash:
 

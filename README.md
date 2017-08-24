@@ -1,8 +1,8 @@
-#ATM challenge week 1 <h1>
+``ATM challenge week 1 <h2>
 
-##the challange was to create an ATM  program that can create an account, a person, deposit funds, withdraw them, create an account and deactive account <h2>
+```the challange was to create an ATM  program that can create an account, a person, deposit funds, withdraw them, create an account and deactive account <h3>
 
-###the program is written in Ruby <h3>
+````The program is written in Ruby <h4>
 
 to load the program put in IRB
 > load 'lib/atm.rb'

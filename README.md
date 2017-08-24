@@ -3,10 +3,11 @@ the challange was to create an ATM  program that can create an account, a person
 The program is written in Ruby <h3>
 
 to load the program put in IRB
-
+```
 *load 'lib/atm.rb'
 *load 'lib/person.rb'
 *load 'lib/account.rb'
+
 
 You need to create a person class to use the ATM, you'll also need an account and some cash:
 

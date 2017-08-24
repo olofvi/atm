@@ -13,12 +13,12 @@ class Account
     @exp_date = Date.today.next_year(Account::STANDARD_VALIDITY_YEARS).strftime('%m/%y')
     @account_status = :active
     @balance = 0
-    set_owner(attrs[:owner])
+    @owner = set_owner(attrs[:owner])
   end
 
   private
     def set_owner(obj)
-    obj == nil ?  missing_owner : @owner = obj
+    obj == nil ?  missing_owner : obj
   end
 
   def missing_owner

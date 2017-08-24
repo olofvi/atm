@@ -1,4 +1,7 @@
-the challange was to create an ATM  program that can create an account, a person, deposit funds, withdraw them, create an account and deactive account <h2>
+
+
+<h2>
+the challange was to create an ATM  program that can create an account, a person, deposit funds, withdraw them, create an account and deactive account 
 
 The program is written in Ruby <h3>
 

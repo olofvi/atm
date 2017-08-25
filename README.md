@@ -20,10 +20,10 @@ You will need an account > @account = 'the_name_of_the_account'
 You also need some cash > @cash = 100
 ```
 <h4>
-* In the ATM you can '**'withdraw cash'**' , that takes the argument amount(integer) and pin number. It checks if the pin number is right, if the account is active and not expired also if there are suffiecient funds on the account and in the ATM. If this all checks out it will reduce the funds in the account and return a receipt.
+* In the ATM you can withdraw cash , that takes the argument amount(integer) and pin number. It checks if the pin number is right, if the account is active and not expired also if there are suffiecient funds on the account and in the ATM. If this all checks out it will reduce the funds in the account and return a receipt.
 
 
-* In the ATM you can also '**'deposit cash'**' , after an account has been created. That will decrease the cash and add the amount to the account.
+* In the ATM you can also deposit cash , after an account has been created. That will decrease the cash and add the amount to the account.
 
 * You can also deactivate the account in the ATM.  
 
